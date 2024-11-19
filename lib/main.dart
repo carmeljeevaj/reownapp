@@ -50,7 +50,7 @@ class _WalletConnectScreenState extends State<WalletConnectScreen> {
   void initializeWalletKit() async {
     _appKitModal = ReownAppKitModal(
       context: context,
-      projectId: 'c279c58b5d516632863cdf395b7ba7c5',
+      projectId: 'xxxxxxYOUR PROJECT ID XXXXX',
       
       metadata: const PairingMetadata(
         name: 'Wallet Connect App',
